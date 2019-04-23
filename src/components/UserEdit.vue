@@ -10,12 +10,12 @@
       <button
         v-if="$user.isAdmin()"
         @click="$user.setAsUser()">
-          make admin
+          make not admin
       </button>
       <button
         v-else
         @click="$user.setAsAdmin()">
-          make not admin
+          make admin
       </button>
     </p>
   </div>

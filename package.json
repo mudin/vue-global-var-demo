@@ -1,5 +1,5 @@
 {
-  "name": "vue-global-variable-demo",
+  "name": "vue-global-var-demo",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^2.5.22",
-    "vue-global-variable": "file:../vue-global-variable",
+    "vue-global-var": "file:../vue-global-var",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

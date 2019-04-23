@@ -1,14 +1,14 @@
 import Vue from 'vue';
-import VueGlobalVariable from 'vue-global-variable';
+import VueGlobalVar from 'vue-global-var';
 import App from './App.vue';
 import User from './model/User';
 
 Vue.config.productionTip = false;
 
-Vue.use(VueGlobalVariable, {
+Vue.use(VueGlobalVar, {
   // store,
   globals: {
-    user: new User('user1'),
+    $user: new User('user1'),
   },
 });
 
